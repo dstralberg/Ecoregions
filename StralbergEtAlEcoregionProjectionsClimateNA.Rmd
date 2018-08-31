@@ -2,10 +2,10 @@
 title: "Climate-projected distributional shifts and refugia for North American ecoregions"
 author: "Diana Stralberg (diana.stralberg@ualberta.ca), AdaptWest Project"
 output:
+  html_document: default
+  pdf_document: default
   word_document: 
     reference_docx: StralbergEtAlEcoregionProjectionsClimateNA_template.docx
-  pdf_document: default
-  html_document: default
 editor_options:
   chunk_output_type: inline
 ---
@@ -119,9 +119,9 @@ for (j in rcp) {
 ```
 Results for RCP 4.5 and RCP 8.5 are shown in Figures 1 and 2, respectively:
 
-![**Figure 1.** Model-predicted (a) baseline, (b) mid-century, and (c) end-of-century changes in North American ecoregions for RCP 4.5. Boreal, hemi-boreal, and western forested regions are shown in green and blue-green shades; arctic ecoregions are in blue shades; prairie/parkland ecoregions are in brown shades; and temperate forest ecoregions are in yellow and orange shades (see Table 1 for full list of ecoregions). Boreal ecoregions are also outlined in black.](ecoregion_cmip5_RCP45.png)
+![**Figure 1.** Model-predicted (a) baseline, (b) mid-century, and (c) end-of-century changes in North American ecoregions for RCP 4.5. Boreal, hemi-boreal, and western forested regions are shown in green and blue-green shades; arctic ecoregions are in blue shades; prairie/parkland ecoregions are in brown shades; and temperate forest ecoregions are in yellow and orange shades (see Table 1 for full list of ecoregions). Boreal ecoregions are also outlined in black.](ecoregion_cmip5_RCP45_lowres.png)
 
-![**Figure 2.** Model-predicted (a) baseline, (b) mid-century, and (c) end-of-century changes in North American ecoregions for RCP 8.5. Boreal, hemi-boreal, and western forested regions are shown in green and blue-green shades; arctic ecoregions are in blue shades; prairie/parkland ecoregions are in brown shades; and temperate forest ecoregions are in yellow and orange shades (see Table 1 for full list of ecoregions). Boreal ecoregions are also outlined in black.](ecoregion_cmip5_RCP85.png)
+![**Figure 2.** Model-predicted (a) baseline, (b) mid-century, and (c) end-of-century changes in North American ecoregions for RCP 8.5. Boreal, hemi-boreal, and western forested regions are shown in green and blue-green shades; arctic ecoregions are in blue shades; prairie/parkland ecoregions are in brown shades; and temperate forest ecoregions are in yellow and orange shades (see Table 1 for full list of ecoregions). Boreal ecoregions are also outlined in black.](ecoregion_cmip5_RCP85_lowres.png)
 
 Next, I used the following code to calculate the change in area (16 km2 pixels) for each Level III ecoregion (Table 2):
 
