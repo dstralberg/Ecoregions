@@ -217,12 +217,16 @@ for (i in 2:181) {
 }
 ```
 For mapping purposes, novel climates for each ecoregion, RCP, and time period were identified as those with values lower than the 1st percentile of dissimiarity values for the baseline periods:
-[1. RCP 8.5, 2080s] (https://drive.google.com/file/d/1mxJupbS2hQ7MNPNEycWRMYO98sBbsBsh/view?usp=sharing)
-[2. RCP 8.5, 2050s] (https://drive.google.com/file/d/10v2MGRyCVTrOoSMBOoBJ79XtVUDXnVoP/view?usp=sharing)
-[3. RCP 4.5, 2080s] (https://drive.google.com/file/d/14gfhuYI5M_NdaTcYg_rAaHm6L6GiEkVJ/view?usp=sharing)
-[4. RCP 4.5, 2050s] (https://drive.google.com/file/d/1xhMfck9COX0hBozB9sis1GfJwJrxGq_y/view?usp=sharing)
 
-References
+[1. RCP 8.5, 2080s](https://drive.google.com/file/d/1mxJupbS2hQ7MNPNEycWRMYO98sBbsBsh/view?usp=sharing)
+
+[2. RCP 8.5, 2050s](https://drive.google.com/file/d/10v2MGRyCVTrOoSMBOoBJ79XtVUDXnVoP/view?usp=sharing)
+
+[3. RCP 4.5, 2080s](https://drive.google.com/file/d/14gfhuYI5M_NdaTcYg_rAaHm6L6GiEkVJ/view?usp=sharing)
+
+[4. RCP 4.5, 2050s](https://drive.google.com/file/d/1xhMfck9COX0hBozB9sis1GfJwJrxGq_y/view?usp=sharing)
+
+**References**
 
 Carroll, C., J. J. Lawler, D. R. Roberts, and A. Hamann. 2015. Biotic and climatic velocity identify contrasting areas of vulnerability to climate change. PLoS ONE 10:e0140486.
 
