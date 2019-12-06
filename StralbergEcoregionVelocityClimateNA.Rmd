@@ -12,9 +12,11 @@ editor_options:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+Suggested citation: Stralberg, Diana. 2019. Velocity-based macrorefugia for North American ecoregions [Data set]. Zenodo. http://doi.org/10.5281/zenodo.2579337
+
 Climate-change refugia, or areas of species persistence under climate change, may vary in proximity to a species' current distribution, with major implications for their conservation value. Thus, the concept of climate velocity (Loarie et al. 2009)---the speed at which an organisms must migrate to keep pace with climate change---is useful to compare and evaluate refugia. Using analog climate methods, both forward and backward velocity can be calculated, providing complementary information about spatio-temporal responses to climate change (Hamann et al. 2014, Carroll et al. 2015). In particular, backward velocity calculations can be used to identify areas of high potential refugium value for a given time period and species or ecoregion (Stralberg et al. 2018a). Refugia for a given ecoregion represent areas where the climates of that ecoregion may persist into the future. 
 
-I used random forest model projections of future ecoregions (Stralberg et al. 2018b) to generate an index of climate-change refugia potential for individual ecoregions, using the methods outlined in Stralberg et al. (2018a). The index dranges from 0 to 1, with values close to 1 indicating overlap or very close proximity to the current mapped ecoregion, across multiple climate models. Because the random forest algorithm is a classifier that assigns an ecoregion class to every future pixel, it does not account for novel climates that are not currently found in any North American ecoregion. Of course novelty is relative and can be measured in many different ways. I calculated a multivariate environmental similarity surface (MESS) following Elith et al. (2010) to generate an index of novelty for each future ecoregion (negative values indicate dissimilarity).
+I used random forest model projections of future ecoregions (Stralberg et al. 2018b) to generate an index of climate-change refugia potential for individual ecoregions, using the methods outlined in Stralberg et al. (2018a). The index ranges from 0 to 1, with values close to 1 indicating overlap or very close proximity to the current mapped ecoregion, across multiple climate models. Because the random forest algorithm is a classifier that assigns an ecoregion class to every future pixel, it does not account for novel climates that are not currently found in any North American ecoregion. Of course novelty is relative and can be measured in many different ways. I calculated a multivariate environmental similarity surface (MESS) following Elith et al. (2010) to generate an index of novelty for each future ecoregion (negative values indicate dissimilarity).
 
 The code to produce these layers is outlined below. First, required packages and data files are loaded, and paths and projections are defined.
 
@@ -225,6 +227,7 @@ For mapping purposes, novel climates for each ecoregion, RCP, and time period we
 [3. RCP 4.5, 2080s](https://drive.google.com/file/d/14gfhuYI5M_NdaTcYg_rAaHm6L6GiEkVJ/view?usp=sharing)
 
 [4. RCP 4.5, 2050s](https://drive.google.com/file/d/1xhMfck9COX0hBozB9sis1GfJwJrxGq_y/view?usp=sharing)
+
 
 **References**
 
